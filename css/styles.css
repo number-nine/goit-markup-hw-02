@@ -57,25 +57,40 @@ body {
 
 /* Utility Classes */
 
-/* common undotted list */
+/* common undotted list*/
 .list {
     list-style: none;
-    margin: 0;
 }
 
-/* common dark header h1-h6 */
-.header-dark {
+
+/* common dark item header */
+.item-title {
     color: var(--header-text-color);
 }
 
+section {
+    background-color: var(--background-section-primary-color);
+}
 
 /* A little bit positioning. Just for temporary managing of margin overflow */
 .section-title {
-    margin: 0;
+    color: var(--header-text-color);
 }
 
-.section-text {
-    margin: 0;
+/* .section-text {
+
+} */
+
+/* links */
+
+.item-link {
+    text-decoration: none;
+}
+
+/* Just for hover/focused purposes */
+.item-link:hover,
+.item-link:focus {
+    background-color: var(--navlink-active-color);
 }
 
 .button {
@@ -87,7 +102,7 @@ body {
 
 /* Header Section */
 
-.sec-header {
+.header {
     background-color: var(--background-section-primary-color);
 }
 
@@ -102,20 +117,18 @@ body {
 }
 
 
-.page-footer .logo {
-    color: var(--logo-footer-text-color);
-}
+
 
 
 /* Site Navigation Block */
 
-.site-nav-item {
+.navigation-item {
     color: var(--navlink-text-color);
     text-decoration: none;
 }
 
-.site-nav-item:hover,
-.site-nav-item:focus {
+.navigation-item:hover,
+.navigation-item:focus {
     color: var(--navlink-active-color);
 }
 
@@ -134,22 +147,19 @@ body {
 
 /* Hero Section */
 
-.sec-hero {
+.hero {
 
     /*according to color scheme should be rgba(0, 0, 0, 0.05), ???*/
     background-color: var(--background-section-hero);
 
 }
 
-.sec-hero .section-title {
+.hero-title {
     color: #FFFFFF;
 }
 
 /* Strengths Section */
 
-.sec-strengths {
-    background-color: var(--background-section-primary-color);
-}
 
 /* Services Section */
 
@@ -163,21 +173,27 @@ body {
     background-color: var(--background-section-secondary-color);
 }
 
-.link {
-    text-decoration: none;
-}
 
-/* Just for hover/focuswd purposes */
-.link:hover,
-.link:focus {
-    background-color: var(--navlink-active-color);
-}
 
 
 
 /* Footer Section */
 
-.page-footer {
+.footer {
     color: var(--logo-footer-text-color);
     background-color: var(--background-footer-color);
 }
+
+
+.footer>.logo {
+    color: var(--logo-footer-text-color);
+}
+
+.footer>.logo:hover,
+.footer>.logo:focus {
+    color: var(--navlink-active-color);
+}
+
+/* .footer-text {
+
+} */
