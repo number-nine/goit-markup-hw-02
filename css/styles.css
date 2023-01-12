@@ -47,15 +47,14 @@ body {
     background-color: var(--background-page-color);
     color: var(--text-primary-color);
 
-    /* font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 }
-
-/* Utility Classes */
 
 /* common undotted list*/
 .list {
@@ -66,6 +65,14 @@ body {
 /* common dark item header */
 .item-title {
     color: var(--header-text-color);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.item-text {
+    color: var(--text-primary-color); /*fix for link in team block. Delete if no link*/
 }
 
 .section {
@@ -75,6 +82,11 @@ body {
 /* A little bit positioning. Just for temporary managing of margin overflow */
 .section-title {
     color: var(--header-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11px;
+    text-transform: capitalize;
 }
 
 /* .section-text {
@@ -96,6 +108,9 @@ body {
 .button {
     color: var(--button-text-color);
     background-color: var(--button-main-color);
+
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 
@@ -110,14 +125,18 @@ body {
 
 .logo {
     text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo .logo-accent {
     color: var(--logo-accent-text-color);
 }
-
-
-
 
 
 /* Site Navigation Block */
@@ -130,6 +149,10 @@ body {
 .navigation-item:hover,
 .navigation-item:focus {
     color: var(--navlink-active-color);
+}
+
+.navigation-list .navigation-item {
+    font-weight: 500;
 }
 
 
@@ -145,6 +168,10 @@ body {
     color: var(--navlink-active-color);
 }
 
+.contact-list .contact-item {
+    font-style: normal;
+}
+
 /* Hero Section */
 
 .hero {
@@ -156,6 +183,11 @@ body {
 
 .hero-title {
     color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 /* Strengths Section */
@@ -163,9 +195,6 @@ body {
 
 /* Services Section */
 
-.sec-services {
-    background-color: var(--background-section-primary-color);
-}
 
 /* Team Section */
 
@@ -187,6 +216,8 @@ body {
 
 .footer>.logo {
     color: var(--logo-footer-text-color);
+
+    line-height: 1.67;
 }
 
 .footer>.logo:hover,
