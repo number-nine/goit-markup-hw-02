@@ -1,0 +1,183 @@
+body {
+    /* --------
+         Color Palette
+    -------- */
+
+    /* text */
+    --text-primary-color: #434455;
+
+    --header-text-color: #2E2F42;
+    --navlink-text-color: #2E2F42;
+    --navlink-active-color: #4D5AE5;
+
+    /* logo */
+    --logo-accent-text-color: #4D5AE5;
+    --logo-footer-text-color: #F4F4FD;
+
+    /* backgrounds */
+
+    --background-page-color: #E5E5E5;
+    --background-section-primary-color: #FFFFFF;
+    --background-section-secondary-color: #F4F4FD;
+    --background-section-hero: #2E2F42;
+    /*according to color scheme should be rgba(0, 0, 0, 0.05);*/
+    --background-footer-color: #2E2F42;
+
+
+    /* actions */
+
+    --button-main-color: #4D5AE5;
+    --button-text-color: #FFFFFF;
+
+    --selector-active-color: #404BBF;
+    --selector-inactive-color: #F4F4FD;
+    --accent-color: #E7E9FC;
+    /*selector border, footer text*/
+
+    --actions-text-white-color: #FFFFFF;
+    --actions-text-blue-color: #4D5AE5;
+
+    /* shadows? rgba */
+
+    /* --------
+        End of Palette block
+    -------- */
+
+
+    background-color: var(--background-page-color);
+    color: var(--text-primary-color);
+
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; */
+
+}
+
+/* Utility Classes */
+
+/* common undotted list */
+.list {
+    list-style: none;
+    margin: 0;
+}
+
+/* common dark header h1-h6 */
+.header-dark {
+    color: var(--header-text-color);
+}
+
+
+/* A little bit positioning. Just for temporary managing of margin overflow */
+.section-title {
+    margin: 0;
+}
+
+.section-text {
+    margin: 0;
+}
+
+.button {
+    color: var(--button-text-color);
+    background-color: var(--button-main-color);
+}
+
+
+
+/* Header Section */
+
+.sec-header {
+    background-color: var(--background-section-primary-color);
+}
+
+/* Logo Elements*/
+
+.logo {
+    text-decoration: none;
+}
+
+.logo .logo-accent {
+    color: var(--logo-accent-text-color);
+}
+
+
+.page-footer .logo {
+    color: var(--logo-footer-text-color);
+}
+
+
+/* Site Navigation Block */
+
+.site-nav-item {
+    color: var(--navlink-text-color);
+    text-decoration: none;
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus {
+    color: var(--navlink-active-color);
+}
+
+
+/* Contacts Block*/
+
+.contact-item {
+    color: var(--text-primary-color);
+    text-decoration: none;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: var(--navlink-active-color);
+}
+
+/* Hero Section */
+
+.sec-hero {
+
+    /*according to color scheme should be rgba(0, 0, 0, 0.05), ???*/
+    background-color: var(--background-section-hero);
+
+}
+
+.sec-hero .section-title {
+    color: #FFFFFF;
+}
+
+/* Strengths Section */
+
+.sec-strengths {
+    background-color: var(--background-section-primary-color);
+}
+
+/* Services Section */
+
+.sec-services {
+    background-color: var(--background-section-primary-color);
+}
+
+/* Team Section */
+
+.sec-team {
+    background-color: var(--background-section-secondary-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Just for hover/focuswd purposes */
+.link:hover,
+.link:focus {
+    background-color: var(--navlink-active-color);
+}
+
+
+
+/* Footer Section */
+
+.page-footer {
+    color: var(--logo-footer-text-color);
+    background-color: var(--background-footer-color);
+}
