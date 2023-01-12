@@ -68,7 +68,7 @@ body {
     color: var(--header-text-color);
 }
 
-section {
+.section {
     background-color: var(--background-section-primary-color);
 }
 
@@ -169,7 +169,7 @@ section {
 
 /* Team Section */
 
-.sec-team {
+.section.team {
     background-color: var(--background-section-secondary-color);
 }
 
