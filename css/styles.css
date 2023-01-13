@@ -93,7 +93,6 @@ body {
     background-color: var(--background-section-primary-color);
 }
 
-/* A little bit positioning. Just for temporary managing of margin overflow */
 .section-title {
     color: var(--header-text-color);
     
