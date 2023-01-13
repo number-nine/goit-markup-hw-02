@@ -100,7 +100,7 @@ body {
     /* font-weight: 700; */
 
     font-size: 36px; 
-    line-height: 1.11px;
+    line-height: 1.11;
     text-transform: capitalize;
 }
 
@@ -121,8 +121,10 @@ body {
 }
 
 .button {
-
+    font-size: 16px;
     font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 
     cursor: pointer;
