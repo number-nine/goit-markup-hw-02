@@ -62,8 +62,8 @@ body {
     /* font-style: normal; */
     /* font-size: 16px; */
 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    /* line-height: 1.5; */
+    /* letter-spacing: 0.02em; */
 
 }
 
@@ -80,6 +80,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .item-text {
@@ -87,6 +88,8 @@ body {
     /* Temporary fix for a text wrapped with link in a team block (styles inherited from user-agent).  */
     /* Will be deleted because team items doesn't look like a link on next mockups*/
     color: var(--text-primary-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section {
@@ -101,6 +104,7 @@ body {
 
     font-size: 36px; 
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -124,7 +128,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    font-style: normal;
+    /* font-style: normal; */
     line-height: 1.5;
     letter-spacing: 0.04em;
 
@@ -188,6 +192,7 @@ body {
 .navigation-item {
     color: var(--navlink-text-color);
     text-decoration: none;
+    
 }
 
 .navigation-item:hover,
@@ -197,6 +202,8 @@ body {
 
 .navigation-list .navigation-item {
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -205,6 +212,8 @@ body {
 .contact-item {
     color: var(--text-primary-color);
     text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contact-item:hover,
@@ -259,6 +268,10 @@ body {
     background-color: var(--background-footer-color);
 }
 
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .footer>.logo {
     color: var(--logo-footer-text-color);
